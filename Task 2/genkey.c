@@ -2,15 +2,8 @@
 #include <stdlib.h>
 #include <time.h>
 #define KEYSIZE 16
-
-
-int main()
+void main()
 {
-
-    if (freopen("./keys.txt", "w", stdout) == NULL) {
-        perror("freopen failed");
-        return 1;
-    }
     int i;
 
     long long start_time = 1524013729;
@@ -28,6 +21,5 @@ int main()
         }
         printf("\n");
     }
-    return 0;
 }
 

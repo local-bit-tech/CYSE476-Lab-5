@@ -1,4 +1,1 @@
-pycrptodome
-rich
-polars
-tqdm
+pycryptodome

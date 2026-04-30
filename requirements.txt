@@ -1,0 +1,4 @@
+pycrptodome
+rich
+polars
+tqdm

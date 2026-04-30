@@ -7,7 +7,7 @@ plaintext = bytes.fromhex("255044462d312e350a25d0d4c5d80a34")
 ciphertext = bytes.fromhex("d06bf9d0dab8e8ef880660d2af65aa82")
 iv = bytes.fromhex("09080706050403020100A2B2C2D2E2F2")
 
-file = r"C:\Users\yassa\CYSE476-Lab-5-1\Task 2\keys.txt"
+file = r"/home/seed/keys.txt"
 
 #open the file and read it
 with open(file, "r") as f:
@@ -25,4 +25,4 @@ with open(file, "r") as f:
         #if it does, then print the key
         if ciphertext_to_check == ciphertext:
             print(f"{line.strip()}")
-
+            break

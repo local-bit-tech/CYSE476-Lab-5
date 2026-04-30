@@ -6,4 +6,7 @@ plaintext = "255044462d312e350a25d0d4c5d80a34"
 ciphertext = "d06bf9d0dab8e8ef880660d2af65aa82"
 iv = "09080706050403020100A2B2C2D2E2F2"
 
-
+with open("keys.txt", "r") as f:
+    for line in f:
+        key = line.strip()
+    print(key)

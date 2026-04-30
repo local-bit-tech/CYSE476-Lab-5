@@ -1,3 +1,9 @@
-import time
-print("hello world")
+start_time = 1524013729
+end_time = 1524020929
+
+
+plaintext = "255044462d312e350a25d0d4c5d80a34"
+ciphertext = "d06bf9d0dab8e8ef880660d2af65aa82"
+iv = "09080706050403020100A2B2C2D2E2F2"
+
 

@@ -7,7 +7,7 @@
 int main()
 {
 
-    if (freopen("keys.txt", "w", stdout) == NULL) {
+    if (freopen("./keys.txt", "w", stdout) == NULL) {
         perror("freopen failed");
         return 1;
     }
